@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Education Website Template</title>
+
+	<!-- External CSS -->
+	<link rel="stylesheet" href="style.css">
+
+	<!-- JQuery CDN link -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+	<!-- Navigation start -->
+	<nav>
+		<img src="img/ALS Logo.png" class="logo">
+
+		<div class="navigation">
+			<ul>
+				<i id="menu-close" class="fas fa-times"></i>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="aboutals.html">About ALS</a></li>
+				<li><a href="update.html">Updates</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="#" class="active">ENROLL NOW</a></li>
+			</ul>
+
+			<img src="img/menu.png" id="menu-btn">
+		</div>
+	</nav>
+	<!-- Navigation ends -->
+
+
+	<!-- Hero section starts from here -->
+	<section id="home">
+		<h2>
+			About Alternative Learning System - ALS
+		</h2>
+		<p>EMPOWERING LIFELONG LEARNERS</p>
+	</section>
+	<!-- Hero section ends from here -->
+
+
+	<!-- Features section starts from here -->
+	<section id="features">
+		<h1>What is Alternative Learning System or ALS?</h1>
+		<p>It is a parallel learning system in the Philippines that provides a practical option to the existing formal instruction. When one does not have or cannot access formal education in schools, ALS is an alternate or substitute. ALS includes both the non-formal and informal sources of knowledge and skills. It offers the following:</p>
+
+		<div class="fea-base">
+			<div class="fea-box">
+				<i class="fas fa-graduation-cap"></i>
+				<h3>The Basic Literacy Program (BLP)</h3>
+				<p>It is a program component of ALS aimed at eradicating illiteracy among OSYA, and in extreme cases, school-aged children, by developing the basic literacy skills of reading, writing, and numeracy. </p>
+			</div>
+
+			<div class="fea-box">
+				<i class="fa-solid fa-book-bookmark"></i>
+				<h3>Program for dropouts of formal Elementary and Secondary Levels: Continuing Education: Accreditation and Equivalency (A&E) Program</h3>
+				<p>The Accreditation and Equivalency (A&E) Program is a program aimed at providing an alternative pathway of learning for out-of-school  children, youth and adults who are basically literate but who have not completed the 10 years of basic education mandated by the Philippine Constitution. Through this program, school dropouts are able to complete elementary and high school education outside the formal school system.</p>
+			</div>
+
+			<div class="fea-box">
+				<i class="fas fa-award"></i>
+				<h3>Community-Based Learning:</h3>
+				<p>ALS often emphasizes community-based learning, promoting self-help and community development. </p>
+			</div>
+		</div>
+	</section>
+	<!-- Features section ends from here -->
+
+	<!-- Footer section starts from here -->
+	<footer>
+		<div class="footer-col">
+			<h3>Follow Us</h3>
+			<li>https://www.facebook.com/LindabanCLC</li>
+		</div>
+
+		<div class="footer-col">
+			<h3>Email Us</h3>
+			<li>castrolyzamae@gmail.com</li>
+		</div>
+
+		<div class="footer-col">
+			<h3>Contact Us</h3>
+			<li>Phone #0936-640-0648</li>
+		</div>
+
+		<div class="footer-col">
+			<h3>Locate Us</h3>
+			<li>https://www.google.com/maps/place/Lindaban,+Manolo+Fortich,+Bukidnon/@8.2743476,124.7798007,13z/data=!3m1!4b1!4m6!3m5!1s0x32ff987050f606a5:0x5ebcca9a25c2bad3!8m2!3d8.2778464!4d124.8458603!16s%2Fg%2F11gbfd_17k?entry=ttu&g_ep=EgoyMDI1MDYwMS4wIKXMDSoASAFQAw%3D%3D</li>
+		</div>
+
+		<div class="copyright">
+			<p>Copyright @ 2022 All rights reserved | This template is made by Me.</p>
+		</div>
+	</footer>
+	<!-- Footer section ends from here -->
+
+	<script>
+		// Show menu links on burger click
+		$('#menu-btn').click(function(){
+			$('nav .navigation ul').addClass('active')
+		});
+
+		// Hide navbar on click function
+		$('#menu-close').click(function(){
+			$('nav .navigation ul').removeClass('active')
+		});
+	</script>
+</body>
+</html>

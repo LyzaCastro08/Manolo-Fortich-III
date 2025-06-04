@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Education Website Template</title>
+
+	<!-- External CSS -->
+	<link rel="stylesheet" href="style.css">
+
+	<!-- JQuery CDN link -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+	<!-- Navigation start -->
+	<nav>
+		<img src="img/ALS Logo.png" class="logo">
+
+		<div class="navigation">
+			<ul>
+				<i id="menu-close" class="fas fa-times"></i>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="aboutals.html">About ALS</a></li>
+				<li><a href="update.html">Updates</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="#" class="active">ENROLL NOW</a></li>
+			</ul>
+
+			<img src="img/menu.png" id="menu-btn">
+		</div>
+	</nav>
+	<!-- Navigation ends -->
+
+
+	<!-- Hero section starts from here -->
+	<section id="home">
+		<h2>
+			Alternative Learning System - ALS
+		</h2>
+		<p>Sa ALS May Pag-asa</p>
+	</section>
+	<!-- Hero section ends from here -->
+
+
+	<!-- Features section starts from here -->
+	<section id="features">
+		<h1>Connect With Us</h1>
+		<p>ALS provides a second chance for individuals who were unable to complete their formal education.</p>
+
+		<div class="fea-base">
+			<div class="fea-box">
+				<i class="fas fa-graduation-cap"></i>
+				<h3>Address</h3>
+				<p>Zone 1, Lindaban, Manolo Fortich, Bukidnon </p>
+
+			</div>
+
+			<div class="fea-box">
+				<i class="fa-solid fa-book-bookmark"></i>
+				<h3>Facebook:</h3>
+				<p>https://www.facebook.com/LindabanCLC</p>
+
+
+			
+			</div>
+			<div class="fea-box">
+				<i class="fas fa-award"></i>
+				<h3>Email us!</h3>
+				<p>LindabanCLC@gmail.com </p>
+			</div>
+		</div>
+	</section>
+	<!-- Features section ends from here -->
+
+	<!-- Experts section starts from here -->
+	<section id="experts">
+		<h1>Community ALS Implementers</h1>
+		<p>Individuals engaged by DepEd or LGUs to deliver ALS programs</p>
+		
+		<div class="expert-box">
+			<div class="profile">
+				<img src="castro" alt="Teacher Lyza">
+				<h6>Lyza Mae Castro</h6>
+				<p>General Education</p>
+				<div class="pro-links">
+					<i class="fab fa-facebook">https://www.facebook.com/lyzamaecastro</i>
+				</div>
+			
+			</div>
+
+		</div>
+	</section>
+	<!-- Experts section ends from here -->
+
+	<!-- Footer section starts from here -->
+	<footer>
+		<div class="footer-col">
+			<h3>Follow Us</h3>
+			<li>https://www.facebook.com/LindabanCLC</li>
+		</div>
+
+		<div class="footer-col">
+			<h3>Email Us</h3>
+			<li>castrolyzamae@gmail.com</li>
+		</div>
+
+		<div class="footer-col">
+			<h3>Contact Us</h3>
+			<li>Phone #0936-640-0648</li>
+		</div>
+
+		<div class="footer-col">
+			<h3>Locate Us</h3>
+			<li>https://www.google.com/maps/place/Lindaban,+Manolo+Fortich,+Bukidnon/@8.2743476,124.7798007,13z/data=!3m1!4b1!4m6!3m5!1s0x32ff987050f606a5:0x5ebcca9a25c2bad3!8m2!3d8.2778464!4d124.8458603!16s%2Fg%2F11gbfd_17k?entry=ttu&g_ep=EgoyMDI1MDYwMS4wIKXMDSoASAFQAw%3D%3D</li>
+		</div>
+
+		<div class="copyright">
+			<p>Copyright @ 2022 All rights reserved | This template is made by Lyza Mae Castro</p>
+		</div>
+	</footer>
+	<!-- Footer section ends from here -->
+
+	<script>
+		// Show menu links on burger click
+		$('#menu-btn').click(function(){
+			$('nav .navigation ul').addClass('active')
+		});
+
+		// Hide navbar on click function
+		$('#menu-close').click(function(){
+			$('nav .navigation ul').removeClass('active')
+		});
+	</script>
+</body>
+</html>

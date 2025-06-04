@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Education Website Template</title>
+
+	<!-- External CSS -->
+	<link rel="stylesheet" href="style.css">
+
+	<!-- JQuery CDN link -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+	<!-- Navigation start -->
+	<nav>
+		<img src="img/ALS Logo.png" class="logo">
+
+		<div class="navigation">
+			<ul>
+				<i id="menu-close" class="fas fa-times"></i>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="aboutals.html">About ALS</a></li>
+				<li><a href="update.html">Updates</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="#" class="active">ENROLL NOW</a></li>
+			</ul>
+
+			<img src="img/menu.png" id="menu-btn">
+		</div>
+	</nav>
+	<!-- Navigation ends -->
+
+
+	<!-- Hero section starts from here -->
+	<section id="home">
+		<h2>
+			ALS News and Updates
+		</h2>
+		<p>EMPOWERING LIFELONG LEARNERS</p>
+	</section>
+	<!-- Hero section ends from here -->
+
+
+	<!-- Features section starts from here -->
+	<section id="features">
+		<h1>ALS Offers</h1>
+		<p>ALS provides a second chance for individuals who were unable to complete their formal education.</p>
+
+		<div class="fea-base">
+			<div class="fea-box">
+				<i class="fas fa-graduation-cap"></i>
+				<h3>ALS 2.0</h3>
+				<p>In 2016, the ALS underwent significant reforms, culminating in ALS 2.0. This involved extensive consultations, curriculum revisions, and the development of a five-year strategic roadmap. The enhanced ALS K to 12 Basic Education Curriculum was finalized, aligning with the formal K to 12 system while remaining adaptable to the diverse needs of ALS learners. </p>
+			</div>
+
+			<div class="fea-box">
+				<i class="fa-solid fa-book-bookmark"></i>
+				<h3>ALS Program Structure </h3>
+				<p>The ALS program offers both elementary and secondary levels. Instruction can be school-based or community-based, utilizing various learning centers and resources. The curriculum is modular and flexible, focusing on six learning strands: communication skills (English and Filipino), scientific literacy and critical thinking, mathematical and problem-solving skills, life and career skills, understanding the self and society, and digital citizenship. Learners undergo a functional literacy test to determine their starting point and create an individual learning agreement (ILA) to track progress. </p>
+			</div>
+
+			<div class="fea-box">
+				<i class="fas fa-award"></i>
+				<h3>Accreditation and Equivalency (A&E) Test::</h3>
+				<p>The Alternative Learning System (ALS) in the Philippines uses an Accreditation and Equivalency (A&E) test to assess the learning competencies of out-of-school youth and adults (OSYAs). This test allows individuals who haven't completed formal schooling to gain recognition for their knowledge and skills.</p>
+			</div>
+		</div>
+	</section>
+	<!-- Features section ends from here -->
+
+	<!-- Footer section starts from here -->
+	<footer>
+		<div class="footer-col">
+			<h3>Follow Us</h3>
+			<li>https://www.facebook.com/LindabanCLC</li>
+
+		</div>
+
+		<div class="footer-col">
+			<h3>Email Us</h3>
+			<li>castrolyzamae@gmail.com</li>
+		</div>
+
+		<div class="footer-col">
+			<h3>Contact Us</h3>
+		<li>Phone #0936-640-0648</li>
+		</div>
+
+		<div class="footer-col">
+			<h3>Locate Us</h3>
+			<li>https://www.google.com/maps/place/Lindaban,+Manolo+Fortich,+Bukidnon/@8.2743476,124.7798007,13z/data=!3m1!4b1!4m6!3m5!1s0x32ff987050f606a5:0x5ebcca9a25c2bad3!8m2!3d8.2778464!4d124.8458603!16s%2Fg%2F11gbfd_17k?entry=ttu&g_ep=EgoyMDI1MDYwMS4wIKXMDSoASAFQAw%3D%3D</li>
+		</div>
+
+		<div class="copyright">
+			<p>Copyright @ 2022 All rights reserved | This template is made by Me.</p>
+		</div>
+	</footer>
+	<!-- Footer section ends from here -->
+
+	<script>
+		// Show menu links on burger click
+		$('#menu-btn').click(function(){
+			$('nav .navigation ul').addClass('active')
+		});
+
+		// Hide navbar on click function
+		$('#menu-close').click(function(){
+			$('nav .navigation ul').removeClass('active')
+		});
+	</script>
+</body>
+</html>
